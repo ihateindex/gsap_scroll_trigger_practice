@@ -1,0 +1,165 @@
+* {
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.step-01 {
+    padding: 120px 24px 0 24px;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.step-01 .step-01-sub-title {
+    margin-bottom: 4px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.step-01 h2,
+.step-01 h3 {
+    color: #e3001a;
+}
+
+.step-01 h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.step-01-cat {
+    position: absolute;
+}
+
+.step-01-cat1 {
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    position: absolute;
+}
+
+.step-01-cat2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    z-index: 5;
+}
+
+.step-01-cat3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 180px;
+    z-index: 4;
+}
+
+.step-01-cat4 {
+    position: absolute;
+    bottom: 200px;
+    left: 12vw;
+    z-index: 3;
+    width: 120px;
+}
+
+.step-01-cat5 {
+    position: absolute;
+    bottom: 200px;
+    right: 12vw;
+    z-index: 2;
+    width: 120px;
+}
+
+.step-01-cat6 {
+    position: absolute;
+    bottom: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 130px;
+}
+
+.step-01 .circle-red {
+    background: #e3001a;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 1000px;
+}
+
+.step-02 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.step-02 .step-02-title-wrap {
+    position: absolute;
+    z-index: 8;
+    top: 120px;
+    left: 24px;
+}
+
+.step-02 .step-02-sub-title {
+    margin-bottom: 4px;
+    font-weight: 300;
+    color: #fff;
+    /* opacity: 0; */
+    font-size: 24px;
+}
+
+.step-02 .step-02-title {
+    line-height: 1.2;
+    color: #fff;
+    /* opacity: 0; */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* .section2 {
+    width: 100%;
+    height: 100vh;
+    background: plum;
+} */
+
+.step-02-obesity-percent {
+    position: absolute;
+    z-index: 8;
+    bottom: 48px;
+    left: 0;
+    padding: 0 24px;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.obesity-percent-cat-wrap {
+    position: relative;
+}
+
+.obesity-percent-title {
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.obesity-percent-cat {
+    width: 190px;
+}
+
+.obesity-percent-count {
+    font-size: 60px;
+    position: absolute;
+    right: 30px;
+    bottom: 130px;
+    font-weight: bold;
+}
